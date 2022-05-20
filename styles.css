@@ -1,0 +1,22 @@
+body {
+    background: #e2e1e0;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 50px;
+}
+
+
+/* 
+
+  CUSTOM PROPERTIES
+
+--bg-card: #ffe433;
+--padding-card: 35px;
+--border-radius: 10px;
+--color-card: #ffffff;
+
+*/
+
+app-card {
+    --padding-card: 35px;
+}
