@@ -56,3 +56,10 @@ Importancia
 Propiedad !important: una declaración con "!important", significa que dicha declaración tendra mayor valor (especificidad), aunque el selector ID de esta tenga mayor especificidad.
 
 ```
+
+## Shadow DOM v1 - Self-Contained Web Components
+* **https://web.dev/shadowdom-v1/**
+
+```
+Shadow DOM allows web developers to create compartmentalized DOM and CSS for web components
+```
