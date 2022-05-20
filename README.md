@@ -30,10 +30,29 @@ Shadow host: El nodo regular del DOM al que es atado el shadow DOM.
 Shadow tree: El arbol DOM dentro del shadow DOM.
 Shadow boundary: El punto en el que el shadow DOM termina y el DOM regular comienza.
 Shadow root: El nodo raiz del arbol Shadow.
-```
 
+```
 
 ## Cascada y herencia
 
 * **https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance**
 
+```
+Control de la herencia:
+
+inherit: "Activa la herencia".
+
+initial: Establece el valor de la propiedad que este establecido en la hoja de estilo por defecto del navegador.
+
+unset (en-US): Restablece la propiedad a su valor natural, lo que significa que si la propiedad se hereda de forma natural, actúa como inherit, y en caso contrario como initial.
+
+Comprender la cascada:
+
+Orden en el código
+Especificidad [1000 (style), 0100(ID), Class(0010), 0001(elemento html)]
+Importancia
+
+
+Propiedad !important: una declaración con "!important", significa que dicha declaración tendra mayor valor (especificidad), aunque el selector ID de esta tenga mayor especificidad.
+
+```
