@@ -63,3 +63,17 @@ Propiedad !important: una declaración con "!important", significa que dicha dec
 ```
 Shadow DOM allows web developers to create compartmentalized DOM and CSS for web components
 ```
+
+## Usar componentes StencilJS desde Angular
+* **http://blog.enriqueoriol.com/2017/10/stenciljs-desde-angular.html**
+
+```
+Copia la carpeta "www" o su contendio de tu proyecto stencil a la carpeta "assets" de tu proyecto angular:
+src/assets/dsw-stencil-components
+
+En el fichero index.html, dentro de la etiqueta header colocamos la CDN o ruta de los siguientes ficheros *.css y *.js
+
+<link rel="stylesheet" href="assets/dsw-stencil-components/build/app.css" />
+<script src="assets/dsw-stencil-components/build/app.esm.js" type="module"></script>
+
+```

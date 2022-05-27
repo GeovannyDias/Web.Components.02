@@ -17,6 +17,12 @@ body {
 
 */
 
-app-card {
+.one {
     --padding-card: 35px;
+    --width: 100%;
+}
+
+.two {
+  --padding-card: 35px;
+  --width: 100%;
 }
